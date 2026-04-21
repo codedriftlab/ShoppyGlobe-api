@@ -17,3 +17,8 @@ app.use("/api/cart", require("./routes/cartRoutes"));
 
 // server
 app.listen(3000, ()=>console.log("Server running"));
+
+// error handling
+app.use((err, req, res, next) => {
+  res.status(500).send("Something went wrong");
+});
