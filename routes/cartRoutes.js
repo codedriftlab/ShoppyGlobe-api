@@ -12,7 +12,8 @@ router.post("/", auth, async (req, res) => {
   });
 
   await item.save();
-  res.send("Added to cart");
+  // res.send("Added to cart");
+  res.json(item);
 });
 
 // update
