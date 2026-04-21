@@ -148,4 +148,4 @@ All APIs tested using Thunder Client (VS Code extension).
 ---
 
 ## Author
-Your Name
+Manglesh Kumar
